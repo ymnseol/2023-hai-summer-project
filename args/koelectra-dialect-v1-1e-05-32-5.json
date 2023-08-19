@@ -1,0 +1,16 @@
+{
+    "data_path": "/content/drive/MyDrive/HAI/summer-project/data/dialect-dataset",
+    "model_name_or_path": "circulus/koelectra-dialect-v1",
+    "tokenizer_name_or_path": "circulus/koelectra-dialect-v1",
+    "device": "cuda",
+    "learning_rate": 1e-05,
+    "batch_size": 32,
+    "num_epochs": 5,
+    "max_token_length": 128,
+    "save_total_limit": 3,
+    "output_dir": "/content/drive/MyDrive/HAI/summer-project/model/koelectra-dialect-v1-1e-05-32-5",
+    "wandb_project": "2023-hai-summer-project",
+    "wandb_entity": "ymnseol",
+    "wandb_name": "koelectra-dialect-v1-1e-05-32-5",
+    "wandb_group": "koelectra-dialect-v1"
+}
